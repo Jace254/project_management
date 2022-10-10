@@ -14,6 +14,12 @@ defmodule ProjectManagementWeb.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/api", ProjectManagementWeb do
+    pipe_through :api
+
+    resources "/projects", ProjectController, except: [:new, :edit]
+  end
+
   scope "/", ProjectManagementWeb do
     pipe_through :browser
 
