@@ -15,7 +15,7 @@ config :project_management, ProjectManagementWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: ProjectManagementWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: ProjectManagement.PubSub,
-  live_view: [signing_salt: "AKgEhotR"]
+  live_view: [signing_salt: "qZqRDLAB"]
 
 # Configures the mailer
 #

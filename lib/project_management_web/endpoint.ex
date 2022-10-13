@@ -7,7 +7,7 @@ defmodule ProjectManagementWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_project_management_key",
-    signing_salt: "ThoO15SZ"
+    signing_salt: "yFy+imMv"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]

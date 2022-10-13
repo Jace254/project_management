@@ -3,9 +3,9 @@ import Config
 # Configure your database
 config :project_management, ProjectManagement.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "strathonsbait1",
   hostname: "localhost",
-  database: "project_management_dev",
+  database: "project_management_dev1",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
@@ -23,7 +23,7 @@ config :project_management, ProjectManagementWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "XdhdZMeB2Nt6R0gp/AOYWh2/vkTxhEbBe3J370Cvb606Meu0/wKE0FerpcSetgxq",
+  secret_key_base: "W4BcAE38rMjfOljgQ/zBoxWdPcz0h8uLrjYM4Qse5smKmotsrB34qZfxEuwvMgVR",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}

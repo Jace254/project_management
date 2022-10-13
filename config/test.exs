@@ -17,7 +17,7 @@ config :project_management, ProjectManagement.Repo,
 # you can enable the server option below.
 config :project_management, ProjectManagementWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "PJpYlm5hk2eCqZFYQAp/0xzLsgevyDf6KVbHOeTivV0Bgnod7v5/xOHmcyJTehVX",
+  secret_key_base: "yXJnD2DnEp0oKQV7Le6nHgGCi3Oh5pGdnwLqHl3xSkQyM9u0Wi60QNKCNB7EqI8o",
   server: false
 
 # In test we don't send emails.
