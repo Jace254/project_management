@@ -5,7 +5,7 @@ config :project_management, ProjectManagement.Repo,
   username: "postgres",
   password: "strathonsbait1",
   hostname: "localhost",
-  database: "project_management_dev1",
+  database: "project_management_dev2",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
